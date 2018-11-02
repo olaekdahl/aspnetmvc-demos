@@ -1,0 +1,61 @@
+﻿@model List<Course>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+    <p>Date: <input type="text" id="datepicker"></p>
+    @Ajax.ActionLink("Click here to get the current time",
+                     "ServerTime",
+        new AjaxOptions
+        {
+          UpdateTargetId = "timeDisplay",
+          HttpMethod = "GET",
+          InsertionMode = InsertionMode.Replace,
+          LoadingElementId="progress"
+
+        })
+    <br />
+    <div id="timeDisplay"></div>
+    <div id="LoadingElementId" style="display:none">Loading....</div>
+
+    @*@Html.Partial("_PartialDemo", Model)*@
+
+
+    @Html.Action("GetSummary")
+
+    @Html.ActionLink("Add Course", "AddCourse")
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var course in Model)
+            {
+                <tr>
+                    <td><a href="@Url.Action("Edit", new { id=course.Id})">@course.Id</a></td>
+                    <td>@course.Title</td>
+                </tr>
+
+            }
+        </tbody>
+    </table>
+
+
+    @section Scripts{
+        <script type="text/javascript">
+            $(function () {
+                $("#datepicker").datepicker();
+            });
+        </script>
+        <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    }
+
+
+

@@ -1,0 +1,4 @@
+Enable-Migrations
+-------------------------------
+Add-Migration -Name v1
+Update-Database

@@ -1,0 +1,13 @@
+c:\demos\AdventureWorks\AdventureWorks.Models\bin\Debug\AdventureWorks.Models.dll
+c:\demos\AdventureWorks\AdventureWorks.Models\bin\Debug\AdventureWorks.Models.pdb
+c:\demos\AdventureWorks\AdventureWorks.Models\obj\Debug\AdventureWorks.Models.csprojAssemblyReference.cache
+c:\demos\AdventureWorks\AdventureWorks.Models\obj\Debug\AdventureWorks.Models.csproj.CoreCompileInputs.cache
+c:\demos\AdventureWorks\AdventureWorks.Models\obj\Debug\AdventureWorks.Models.dll
+c:\demos\AdventureWorks\AdventureWorks.Models\obj\Debug\AdventureWorks.Models.pdb
+C:\demos\AdventureWorks\AdventureWorks.Models\bin\Debug\EntityFramework.xml
+C:\demos\AdventureWorks\AdventureWorks.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\demos\AdventureWorks\AdventureWorks.Models\obj\Debug\AdventureWorks.Models.csproj.CopyComplete
+C:\demos\AdventureWorks\AdventureWorks.Models\bin\Debug\App.config
+C:\demos\AdventureWorks\AdventureWorks.Models\bin\Debug\AdventureWorks.Models.dll.config
+C:\demos\AdventureWorks\AdventureWorks.Models\bin\Debug\EntityFramework.dll
+C:\demos\AdventureWorks\AdventureWorks.Models\bin\Debug\EntityFramework.SqlServer.dll

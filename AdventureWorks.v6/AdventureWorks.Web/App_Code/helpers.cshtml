@@ -1,0 +1,11 @@
+﻿@helper DisplayPrice(Decimal price)
+{
+    if (price == 0)
+    {
+        <span>FREE!</span>
+    }
+    else
+    {
+        @String.Format("{0:C2}", price)
+    }
+}
